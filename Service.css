@@ -341,6 +341,14 @@ body{
     color: #fff;
 }
 
+.time{
+    color: white;
+}
+
+.cvc{
+    color: #9732ef;
+}
+
 .main .footer .footer-links{
     display: flex;
 }
@@ -354,6 +362,23 @@ body{
     font-size: 20px;
     line-height: 40px;
     color: #fff;
+}
+
+.sec1__btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #162938;
+    padding: 0.75rem 0.8rem;
+    border-radius: 6.25rem;
+    color: rgb(255, 255, 255);
+    transition: 0.4s ease;
+    /* margin-bottom: 2rem; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 38rem;
+    animation-name: color;
+    animation-duration: 2s;
 }
 
 .main .footer .footer-links .link p{
